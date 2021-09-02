@@ -13,7 +13,6 @@
 		D209749926D9906E0009FCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D209749826D9906E0009FCA7 /* Assets.xcassets */; };
 		D209749C26D9906E0009FCA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D209749A26D9906E0009FCA7 /* Main.storyboard */; };
 		D20974A626D99A780009FCA7 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20974A526D99A780009FCA7 /* Internal.swift */; };
-		D2D2B4F226DA6E7400746052 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D2B4F126DA6E7400746052 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D2B4F226DA6E7400746052 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
