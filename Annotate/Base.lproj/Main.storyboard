@@ -740,12 +740,12 @@
                                                     </connections>
                                                 </textField>
                                                 <button verticalHuggingPriority="750" alphaValue="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="rdH-LE-fcc" userLabel="Next Preview">
-                                                    <rect key="frame" x="717" y="4" width="146" height="162"/>
+                                                    <rect key="frame" x="773" y="4" width="90" height="162"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="160" id="2Bj-8V-Gtx"/>
-                                                        <constraint firstAttribute="width" constant="146" id="i1a-Wp-sPf"/>
+                                                        <constraint firstAttribute="width" constant="90" id="i1a-Wp-sPf"/>
                                                     </constraints>
-                                                    <buttonCell key="cell" type="smallSquare" title="next" bezelStyle="smallSquare" image="logo03" imagePosition="overlaps" alignment="center" alternateImage="logo03" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7xN-zz-TEr" userLabel="Next Preview">
+                                                    <buttonCell key="cell" type="smallSquare" title="next" bezelStyle="smallSquare" image="ex02" imagePosition="overlaps" alignment="center" alternateImage="ex02" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7xN-zz-TEr" userLabel="Next Preview">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" size="25" name="Futura-MediumItalic"/>
                                                     </buttonCell>
@@ -754,12 +754,12 @@
                                                     </connections>
                                                 </button>
                                                 <button verticalHuggingPriority="750" alphaValue="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="yEo-7Q-5Jb">
-                                                    <rect key="frame" x="425" y="4" width="146" height="162"/>
+                                                    <rect key="frame" x="537" y="4" width="90" height="162"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="160" id="8Qn-wc-q6C"/>
-                                                        <constraint firstAttribute="width" constant="146" id="YOQ-ag-34u"/>
+                                                        <constraint firstAttribute="width" constant="90" id="YOQ-ag-34u"/>
                                                     </constraints>
-                                                    <buttonCell key="cell" type="smallSquare" title="previous" bezelStyle="smallSquare" image="sample07" imagePosition="overlaps" alignment="center" alternateImage="logo00" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Kk5-iQ-lle">
+                                                    <buttonCell key="cell" type="smallSquare" title="previous" bezelStyle="smallSquare" image="ex02" imagePosition="overlaps" alignment="center" alternateImage="ex03" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Kk5-iQ-lle">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" size="25" name="Futura-MediumItalic"/>
                                                     </buttonCell>
@@ -769,7 +769,7 @@
                                                     </connections>
                                                 </button>
                                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a2m-yR-hUj">
-                                                    <rect key="frame" x="571" y="5" width="146" height="160"/>
+                                                    <rect key="frame" x="627" y="5" width="146" height="160"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="146" id="6fF-aj-ioT"/>
                                                         <constraint firstAttribute="height" constant="160" id="o7D-YO-fxl"/>
@@ -780,7 +780,7 @@
                                                     </connections>
                                                 </imageView>
                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1H9-yc-H2m">
-                                                    <rect key="frame" x="584" y="68" width="120" height="33"/>
+                                                    <rect key="frame" x="640" y="68" width="120" height="33"/>
                                                     <textFieldCell key="cell" lineBreakMode="clipping" title="drag here" id="KIn-GX-erD">
                                                         <font key="font" size="25" name="Futura-MediumItalic"/>
                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1073,10 +1073,9 @@
         <image name="NSGoLeftTemplate" width="10" height="14"/>
         <image name="NSRefreshFreestandingTemplate" width="15" height="15"/>
         <image name="doc.fill" catalog="system" width="15" height="16"/>
-        <image name="logo00" width="471" height="162"/>
-        <image name="logo03" width="604" height="590"/>
+        <image name="ex02" width="508" height="676"/>
+        <image name="ex03" width="431" height="139"/>
         <image name="sample06" width="975" height="984"/>
-        <image name="sample07" width="1143" height="1148"/>
         <image name="sun.min.fill" catalog="system" width="15" height="15"/>
     </resources>
 </document>
