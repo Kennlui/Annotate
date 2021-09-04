@@ -14,7 +14,7 @@ struct Manage {
     var documentNumber: Int = 0
     var hide: Bool = true
     var imageInventory: [NSImage] = []
-    var imageList: [String] = []                // base data structure only
+//    var imageList: [String] = []                // base data structure only
     var imageStrList: [String] = []
     var pageCount: Int = 1
     var textList: [String] = []

@@ -565,6 +565,7 @@ func getTitleforHTML() -> String {
     return output ?? ""
 }
 
+/*
 func getImageforHTML(_ count: Int) -> String {              // for base data structure
     
     // make a path to destination of png file
@@ -589,7 +590,7 @@ func getImageforHTML(_ count: Int) -> String {              // for base data str
     // return path
     
     return path?.absoluteString ?? ""
-}
+}*/
 
 func makeHTMLHeader() -> [String] {
     
@@ -679,11 +680,11 @@ func makeHTMLFooter(_ img: NSImage) -> [String] {
 
 struct Platform: Codable {
     var directoryPath: String = ""
-    var documentNumber: Int = 0
+    var documentNumber: [Int] = [0]
     var edit: Bool = true
     var imageStrList: [String] = []
     var siblings: [String] = []
-    var textList: [String] = []
+    var textList: [[String]] = [[]]
 }
 
 var platform = Platform()
@@ -710,9 +711,9 @@ func refreshPlatform() {                                // platform counterpart 
     
     setPlatformSiblings()
     platform.directoryPath = manager.directoryPath
-    platform.documentNumber = manager.documentNumber
+    platform.documentNumber[0] = manager.documentNumber
     platform.imageStrList = manager.imageStrList
-    platform.textList = manager.textList
+    platform.textList[0] = manager.textList
     refreshSiblingsFile()
 }
 
@@ -786,14 +787,14 @@ func loadPlatform(_ data: Data) {
         platform.directoryPath = json.directoryPath
         print("(3.01) loaded platform.directoryPath: " + platform.directoryPath + " (Internal)")
         platform.documentNumber = json.documentNumber
-        print("(3.02) loaded platform.documentNumber: " + String(platform.documentNumber) + " (Internal)")
+        print("(3.02) loaded platform.documentNumber: " + String(platform.documentNumber[0]) + " (Internal)")
         platform.imageStrList = json.imageStrList
         print("(3.03) loaded platform.imageStrList: " + String(platform.imageStrList.count) + " images (Internal)")
         platform.textList = json.textList
         var str = ""
         if (platform.textList.count != 0) {
             for item in platform.textList {
-                str += item + " "
+                str += item[0] + " "
             }
         } else {
             str = "nil"
@@ -832,10 +833,10 @@ func loadPlatform(_ data: Data) {
     // refresh manager
     
     manager.directoryPath = platform.directoryPath
-    manager.documentNumber = platform.documentNumber
+    manager.documentNumber = platform.documentNumber[0]
     manager.edit = platform.edit
     manager.imageInventory = inventoryNS
-    manager.textList = platform.textList
+    manager.textList = platform.textList[0]
     manager.pageCount = 1
     
     // buttons

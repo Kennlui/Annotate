@@ -684,7 +684,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController storyboardIdentifier="Document Window Controller" showSeguePresentationStyle="single" id="jGA-0Y-lOj" sceneMemberID="viewController">
-                    <window key="window" title="Annotate" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="Ckk-yw-fiv">
+                    <window key="window" title="Image Annotator" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="Ckk-yw-fiv">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" fullSizeContentView="YES"/>
                         <rect key="contentRect" x="124" y="699" width="959" height="550"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
